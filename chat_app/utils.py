@@ -1,11 +1,7 @@
 import socket
 import sys
 
-CONSTANTS = {
-    "IP": "127.0.0.1",
-    "PORT": 8080,
-    "HEADER_LENGTH": 10
-}
+CONSTANTS = {"IP": "127.0.0.1", "PORT": 8080, "HEADER_LENGTH": 10}
 
 
 def add_input(input_stack):
